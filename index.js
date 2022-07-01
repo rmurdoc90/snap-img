@@ -7,7 +7,7 @@ x.childNodes.forEach((url) => {
   url.classList.add(modString);
 });
 let classGrab = "SM-CB-CM-CPLT-6-BLK";
-let step = `${classGrab}.jpeg`;
+let step = `${classGrab}.jpg`;
 let testGrab = document.getElementsByClassName(step);
 console.log(testGrab);
 const y = document.getElementById("IMG-2");
